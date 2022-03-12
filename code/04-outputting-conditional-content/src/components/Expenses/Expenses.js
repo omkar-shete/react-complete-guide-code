@@ -20,7 +20,7 @@ const Expenses = (props) => {
     filteredExpList = props.expenses.filter(function (exp) {
       return exp.date.getFullYear().toString() === selectedYear;
     })
-  }
+  }//
 
   let expensesContent = <p>No expenses found.</p>;
 
